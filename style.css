@@ -9,30 +9,30 @@ body
 {
     background-image: url(bg.jpeg);
 }
-.logo
+/* .logo
 {
-    margin: 30px;
-}
+    margin: 10px;
+} */
 .image
 {
-     width:100%; 
-    padding-bottom: 30px; 
+      width:100%; 
+    
      
 }
 .big-font 
 {
      color:rgb(238, 130, 148)
     font-size: 25px;
-    margin:30px;
+    margin:10px;
     font-weight: bolder;
 }
 .para
 {
      
      color: rgb(240, 144, 160);
-    line-height: 1.8;
-    font-size: 20px;
-   margin:30px;
+    /* line-height: 1.8;  */
+    font-size: 16px;
+   margin:10px;
    font-weight: bolder;
 }
 .pink
@@ -45,7 +45,7 @@ label
 
 }
 .btn{
-    margin:20px;
+    margin:10px;
 }
 input
 {
@@ -61,7 +61,7 @@ button
     /* top:0; */
     right:0;
     /* bottom:0; */
-font-size: 18px q2z4edcr5  ;
+font-size: 18px;
     border-radius: 32px;
     padding:15px;
     background-color:rgb(253, 131, 152);
@@ -72,18 +72,30 @@ font-size: 18px q2z4edcr5  ;
    input{
        width:60%;
    }
+   /* .big-font{
+       text-align: center;
+   }
+   .para
+   {
+       text-align: center;
+   } */
+
     }
     
-}
+
  @media (min-width: 768px) {
      .big-font
      {
        
-        font-size: 40px;
+        font-size: 25px;
              }
     input{
 
         width:60%;
+    }
+    .image
+    {
+        width: 30px;
     }
  }
   @media (min-width: 1024px) 
@@ -94,6 +106,10 @@ font-size: 18px q2z4edcr5  ;
       .image{
         text-align: center; 
           display:none;
+      }
+      .big-font{
+          font-size: 35px;
+          margin:30px;
       }
        /* .para
              {
